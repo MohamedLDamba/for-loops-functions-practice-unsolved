@@ -4,8 +4,14 @@
 
 export function getNumbersWithSquareRoots(max) {
   // Your code goes here...
+let roots = [];
+  for (let i = 0;i*i<=max;i++){
+    roots.push(i*i);
+  }return roots
+};
 
-}
+
+console.log(getNumbersWithSquareRoots(17));
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"
