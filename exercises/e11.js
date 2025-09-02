@@ -6,6 +6,7 @@
 
 export function getAllWithdrawals(array) {
   // Your code goes here...
+<<<<<<< HEAD
 const result = [];
 
   for (let i = 0; i < array.length; i++) {
@@ -22,6 +23,7 @@ const result = [];
   }
 
   return result;
+
 }
 
 // === TEST YOURSELF ===

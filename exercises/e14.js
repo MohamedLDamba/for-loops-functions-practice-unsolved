@@ -7,6 +7,7 @@
 
 export function getClientsWithWrongBalance(array) {
   // Your code goes here...
+<<<<<<< HEAD
    let wrongAccounts = [];
 
   for (let i = 0; i < array.length; i++) {
@@ -34,6 +35,7 @@ export function getClientsWithWrongBalance(array) {
   }
 
   return wrongAccounts;
+
 }
 
 

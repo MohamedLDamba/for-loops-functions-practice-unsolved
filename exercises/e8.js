@@ -6,12 +6,14 @@
 
 export function getClientWithGreatestBalance(array) {
   // Your code goes here...
+<<<<<<< HEAD
   let highestAccount = null;
   for(const account of array){
      if (highestAccount === null || account.balance > highestAccount.balance) {
       highestAccount = account;
      }
   }return highestAccount ? [highestAccount] : []
+
 }
 
 

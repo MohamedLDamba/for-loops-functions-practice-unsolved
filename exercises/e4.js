@@ -6,22 +6,23 @@
 export function findMinValueInArray(array) {
   // Your code goes here...
   let min = array[0];
-  for(let i = 0;i < array.length;i++){
-    
-    if (array[i]<min) {
-      min = array[i]
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] < min) {
+      min = array[i];
     }
-  }return min
+  }
+  return min;
 }
 
 export function findMaxValueInArray(array) {
   // Your code goes here...
   let max = array[0];
-  for(let j = 0;j <array.length; j++){
-    if(max<array[j]){
-      max = array[j]
+  for (let j = 0; j < array.length; j++) {
+    if (max < array[j]) {
+      max = array[j];
     }
-  }return max;
+  }
+  return max;
 }
 
 // === TEST YOURSELF ===

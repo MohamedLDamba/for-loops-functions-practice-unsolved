@@ -7,6 +7,7 @@
 
 export function separateNamesWithAFromRest(array) {
   // Your code goes here...
+<<<<<<< HEAD
  let withA = [];
   let withoutA = [];
 
@@ -30,6 +31,7 @@ export function separateNamesWithAFromRest(array) {
   }
 
   return [withA, withoutA];
+
 
 }
 

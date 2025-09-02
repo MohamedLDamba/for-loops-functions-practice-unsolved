@@ -9,6 +9,7 @@
 // Phil's Account Object
 // ]
 
+<<<<<<< HEAD
 export function getAllAccountsWithSumsOfDepositsLess2000(array) {
     const result = [];
 

@@ -5,6 +5,7 @@
 
 export function getClientWithNoMoney(array) {
   // Your code goes here...
+<<<<<<< HEAD
   let result = []
   for (const account of array) {
     if (account.balance === 0) {
@@ -12,6 +13,8 @@ export function getClientWithNoMoney(array) {
     }
   }return result; 
 }
+
+
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-6"
 // If the test has all tests passed, switch to the next exercise file

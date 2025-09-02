@@ -7,6 +7,7 @@
 
 export function flatArrays(array) {
   // Your code goes here...
+<<<<<<< HEAD
 let flat = [];
 for(const first of array){
   if(Array.isArray(first)){
@@ -19,6 +20,7 @@ for(const first of array){
   
 }
   return flat
+
 }
 
 

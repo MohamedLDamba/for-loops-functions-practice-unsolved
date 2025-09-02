@@ -6,6 +6,7 @@
 
 export function getAllDepositsGreaterThanOneHundred(array) {
   // Your code goes here...
+<<<<<<< HEAD
   const result = [];
 
   for (let i = 0; i < array.length; i++) {
@@ -23,6 +24,7 @@ export function getAllDepositsGreaterThanOneHundred(array) {
   }
 
   return result;
+
 }
 
 

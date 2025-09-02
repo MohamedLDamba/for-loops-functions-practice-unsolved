@@ -7,12 +7,16 @@
 
 export function doesArrayInclude(array, value) {
   // Your code goes here...
+<<<<<<< HEAD
   for(const item of array){
     if( item === value ){
       return true;
     }
       
   }return false
+
+
+
 }
 
 
