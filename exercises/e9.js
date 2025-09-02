@@ -6,6 +6,12 @@
 
 export function getClientsWithBalanceOverOneHundred(array) {
   // Your code goes here...
+  let highEnough = [];
+  for(const account of array){
+    if(account.balance>100){
+      highEnough.push(account)
+    }
+  }return highEnough
 
 }
 

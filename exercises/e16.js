@@ -7,7 +7,18 @@
 
 export function flatArrays(array) {
   // Your code goes here...
-
+let flat = [];
+for(const first of array){
+  if(Array.isArray(first)){
+    for(const second of first){
+      flat.push(second)
+    }
+  }else{
+    flat.push(first)
+  }
+  
+}
+  return flat
 }
 
 
